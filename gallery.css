@@ -9,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  background-image: url(../images/galery.jpg);
+  background: url('../images/galery.jpg');
   background-position: 10px center;
 }
 
