@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: century "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+header {
+  background-image: url(../website/images/20190625_111528.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  position: relative;
+  bottom: 395px;
+  right: 20px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 2px solid black transparent;
+  border-radius: 25px;
+}
+
+ul li a:hover {
+  background-color: rgb(231, 193, 26);
+  color: rgb(37, 37, 37);
+  transition: 0.5s;
+}
+
+ul li a:active {
+  color: rgb(20, 197, 220);
+
+
+}
+
+ul li.active a {
+  background-color: rgb(231, 193, 26);
+  color: rgb(37, 37, 37);
+}
+
+.logo img {
+  width: 599px;
+  margin-right: 150px;
+  position: relative;
+  top: 100px;
+  left: 420px;
+  overflow: hidden;
+}
+
+pre {
+  font-size: 24px;
+  font-family: "Bangers", cursive;
+  position: absolute;
+  left: 28.8%;
+  top: 50%;
+  color: rgb(92, 89, 89);
+}
+
+address {
+  position: absolute;
+  left: 52%;
+  top: 55%;
+  opacity: 70%;
+  \
+
+}
+
+@media screen and (max-width:800px) {
+  .ul {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .ul {
+    width: 100%;
+  }
+}
